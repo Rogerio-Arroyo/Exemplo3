@@ -10,11 +10,11 @@ const sobrenome="Fiapinho";
 console.log(sobrenome);
 
 //declarando um variavel indefinida
-let nome;
+let nome1;
 console.log(nome1)
 
 //declarando uma variavel nula
-let nome2=null
+let nome2=null;
 console.log(nome2)
 
 //TIPOS DE VARIAVEIS
@@ -28,7 +28,7 @@ let exemplo3 =true;
 console.log(typeof exemplo3)
 
 let exemplo4 ={};
-console.log{typeof exemplo4}
+console.log(typeof exemplo4)
 
 let exemplo5 =[];
 console.log(typeof exemplo5)
@@ -53,3 +53,27 @@ console.log(texto.indexOf("ão"))
 //slice = retornar um trecho do texto com inicio e final
 let info="Processamento de ponto"
 console.log(info.slice(2,6));
+
+//OPERADORES ARITMÉTICOS
+const num1=10;
+const num2=20;
+
+console.log(num1 + num2)
+console.log(num1 - num2)
+console.log(num1 * num2)
+console.log(num1 / num2)
+
+//OPERADORES LÓGICOS
+const num3=10;
+const num4=20;
+
+console.log(num3 < num4);
+console.log(num3 > num4 && num4 < num3);
+console.log(num3 < num4 || num4 < num3);
+
+//OPERADORES DE COMPARAÇÃO
+console.log(num3 == num4);
+console.log(num3 === num4);  
+
+
+
