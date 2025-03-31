@@ -32,3 +32,13 @@ console.log{typeof exemplo4}
 
 let exemplo5 =[];
 console.log(typeof exemplo5)
+
+//CONVERSÕES
+
+let numFloat =123.456;
+console.log(parseInt(numFloat));
+
+let numString ="123.456"
+console.log(parseFloat(numString));
+
+
