@@ -75,5 +75,46 @@ console.log(num3 < num4 || num4 < num3);
 console.log(num3 == num4);
 console.log(num3 === num4);  
 
+//ESTRUTURA CONDICIONAL
+//if
+let logado="fiap";
 
+if(logado=="fiap"){
+    console.log("é verdadeiro")
+}
 
+//if/else
+let usuario="teste"
+if(usuario=="teste"){
+    console.log("Usuario Correto")
+}else{
+    console.log("Usuario Errado")
+}
+
+//if ENCADEADO / ANINHADO: (else if)    
+
+let idade1=15
+
+if(idade1 < 15){     
+    console.log("Menor de idade")
+}else if(idade1 > 15 && idade1 < 18){
+    console.log("Não é maior mas pode entrar")
+}else{
+    console.log("pode entrar é maior")
+}
+
+//switch case: melhor opção para fafzer um quiz 
+let time="Palmeiras"
+
+switch(time){
+    case "Palmeiras":
+        console.log("MELHOR TIME")
+        break;
+    case "Corinthians":
+        console.log("Gambazada")
+        break;
+    default:
+        console.log("Nenhuma das opções")
+}
+
+//ternario
