@@ -130,3 +130,9 @@ const desconto = true;
 const preco = produto =="notebook" ? desconto ? 100 :200 : produto =="mouse" ? 30 :100;  
 console.log(preco)
 
+//ESTRUTURA DE REPETIÇÃO 
+
+//FOR
+for(let i=0; i<=10;i++){        //declaração (lê até cheagr no 10), operação, decremento/encremento
+    console.log("O valor de I é: ", i)
+}
