@@ -136,3 +136,71 @@ console.log(preco)
 for(let i=0; i<=10;i++){        //declaração (lê até cheagr no 10), operação, decremento/encremento
     console.log("O valor de I é: ", i)
 }
+
+//WHILE
+let a=0
+while(a <10){
+    //console.log("o valor de é:", a)
+    //string literais
+    console.log(`o valor do while ${a}`)
+    a++;
+}
+ 
+//do while
+let b=0;
+do{
+    console.log(`do while ${b}`)
+    b++;
+}while(b <100)
+   
+//  JOGO DA ADIVINHAÇÃO
+let palpite;
+const sorteio =Math.floor(Math.random() * 10)+1;
+ 
+do{
+    palpite = parseInt(prompt("Escolha um número entre 1 e 10"))
+    if(palpite !== sorteio){
+        alert(`Tente Novamente`)
+    }
+}while(palpite !== sorteio)
+ 
+alert(`Parabéns Você Ganhou ${palpite}`)
+
+//funções - function
+function saudacao(nome){
+    console.log("Seja Bem-Vindo", nome)
+}
+saudacao("FIAP")
+
+function semafaro(){
+    let sinal1="Verde";
+    let sinal2="Amarelo";
+    let sinal3="Vermelho";
+
+    alert(`semafaro ${sinal1}`);
+    alert(`semafaro ${sinal2}`);
+    alert(`semafaro ${sinal3}`);
+    
+}
+semafaro();
+
+//VAR - acessa dentro e fora do bloco, já o LET só acessa dentro do bloco 
+function exemplo(){
+    if(true){
+        var num=100
+        console.log("Dentro do bloco if", num)
+    }
+    console.log("Dentro do bloco função", num)
+}
+exemplo();
+
+//CRIE UM PROGRAMA QUE VERIFICA SE O NÚMERO É PAR
+function verificaPar(numero){
+    if (numero % 2 === 0 ){
+        console.log("O número é par")
+    }
+    else{
+        console.log("O número é impar")
+    }
+}
+verificaPar(10);
